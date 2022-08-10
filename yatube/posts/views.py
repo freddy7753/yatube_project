@@ -5,5 +5,5 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse('домашняя страница сайта для блогов')
 
-def group_posts(request):
+def group_posts(request, slug):
     return HttpResponse('страница для блога')
